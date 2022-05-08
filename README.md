@@ -1,9 +1,9 @@
 
-    
-        [![Badge](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]
+
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
         
 
-    # Professional Readme Generator 
+# Password Generator 
   
   ## Description
   
@@ -18,7 +18,7 @@
   
   ## Installation
   
-  Step 1. Step 2. Step 3.
+  step 1, step 2, step 3
   
   ## Usage
   
@@ -26,18 +26,18 @@
   
   ## Contributing
   
-  ## License
+  no contributing
 
-      This project has a license from: 
-        [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-        
+   ## License
+
+    This project has a license from: 
+[Boost Software](https://www.boost.org/LICENSE_1_0.txt)
+          
       
-  
-  no guidelines
-  
+
   ## Tests
   
-  lorem lorem lorem ipsum ipsum ipsum
+  fergur
   
   ## Questions
   
