@@ -1,12 +1,13 @@
-# Readme Generator 
-  
+
     
         [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
         
+
+    # Professional Readme Generator 
   
   ## Description
   
-  This project allows users to generate a top-notch readme file, to display essential information about their respective project.
+  lorem lorem lorem ipsum ipsum ipsum
   
   ## Table of Contents
   [Installation](#installation)
@@ -17,19 +18,26 @@
   
   ## Installation
   
-  
+  Step 1. Step 2. Step 3.
   
   ## Usage
   
-  To facilitate the creation of a readme file.
+  lorem lorem lorem ipsum ipsum ipsum
   
   ## Contributing
   
-  No guidelines at this time
+  ## License
+
+      This project has a license from: 
+        [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+        
+      
+  
+  no guidelines
   
   ## Tests
   
-  
+  lorem lorem lorem ipsum ipsum ipsum
   
   ## Questions
   
