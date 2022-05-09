@@ -8,23 +8,60 @@ const Choices = require('inquirer/lib/objects/choices');
 const questions = [
     {
         type: "input",
-        message: "What's the project title?",
-        name: "title"
+        message: "What's the project title? (Required)",
+        name: "title",
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your project title!');
+                return false;
+            }
+        }
+
     },
     {
         type: "input",
-        message: "Describe your project",
-        name: "description"
+        message: "Describe your project (Required)",
+        name: "description",
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your project description!');
+                return false;
+            }
+        }
     },
     {
         type: "input",
-        message: "Provide the steps for the installation",
-        name: "installation"
+        message: "Provide the steps for the installation (Required)",
+        name: "installation",
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your project installation steps!');
+                return false;
+            }
+        }
     },
     {
         type: "input",
-        message: "What are the usages for this project?",
-        name: "usages"
+        message: "What are the usages for this project? (Required)",
+        name: "usages",
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your project usage!');
+                return false
+            }
+        }
     },
     {
         type: "list",
@@ -33,7 +70,8 @@ const questions = [
         choices: [
             'Apache 2.0',
             'Boost Software',
-            'BSD 3-Clause'
+            'BSD 3-Clause',
+            'none'
         ]
     },
     {
@@ -43,18 +81,45 @@ const questions = [
     },
     {
         type: "input",
-        message: "Tests Instructions",
-        name: "tests"
+        message: "Tests Instructions (Required)",
+        name: "tests",
+        validate: testsInput => {
+            if (testsInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your project tests instructions!');
+                return false
+            }
+        }
     },
     {
         type: "input",
-        message: "Enter Github username",
-        name: "github"
+        message: "Enter Github username (Required)",
+        name: "github",
+        validate: githubUsernameInput => {
+            if (githubUsernameInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your Github username!');
+                return false
+            }
+        }
     },
     {
         type: "input",
-        message: "Enter Email Addresss",
-        name: "email"
+        message: "Enter Email Addresss (Required)",
+        name: "email",
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your email!');
+                return false
+            }
+        }
     },
 
 ];
@@ -65,7 +130,7 @@ const displayQuestions = () => {
         .then(response => {
             console.log(response);
             // TODO: Create a function to write README file
-            fs.writeFile('./README.md', generateMarkdown(response), (error) => {
+            fs.writeFile('./ExampleREADME.md', generateMarkdown(response), (error) => {
                 if (error) {
                     console.log(error);
                 } else {
