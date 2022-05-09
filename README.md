@@ -20,8 +20,10 @@
   When you have this prject open in your code editor, open the command line for the index.js and answers the questions
   prompted to you. When finished with the questions a readme file will be generated with the information provided.
   
-  ## Examples
+  ## Example
   
+  ![Example readme-generator](https://user-images.githubusercontent.com/100795164/167323229-938a2f92-78ea-470d-a76e-a7823c935749.PNG)
+
   ## Contribution
   Made by Brian Hernandez
 
